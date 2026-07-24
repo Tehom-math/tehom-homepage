@@ -1,6 +1,6 @@
 # tehom-homepage
 
-これは私のホームページです
+ホームページ？
 
 # URL
 https://tehom-math.github.io/tehom-homepage/mainpage/
