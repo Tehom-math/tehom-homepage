@@ -2,5 +2,5 @@
 
 これは私のホームページです
 
-##URL
+#URL
 https://tehom-math.github.io/tehom-homepage/mainpage/
