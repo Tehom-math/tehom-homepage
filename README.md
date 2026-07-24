@@ -1,6 +1,6 @@
 # tehom-homepage
 
-ホームページ？
+ホームページ(？)
 
 # URL
 https://tehom-math.github.io/tehom-homepage/mainpage/
