@@ -1,0 +1,101 @@
+
+body{
+  background-color : lightblue;
+  margin : 0;
+  padding : 0;
+}
+
+a{
+  color : #1E90FF;
+  text-decoration : none;
+}
+
+a:hover{
+  color : #002ccc;
+}
+
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #3498db;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;   /* ボタン同士の間隔 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.top-nav a:hover {
+  background: #2980b9;
+}
+
+
+.container {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 30px;
+  width: 65%;
+  margin: 100px auto;  /* 自動で中央寄せ */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.blog-list{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.blog-list th,
+.blog-list td {
+  text-align: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;  
+  border-right: 1px solid #ddd; 
+}
+
+.blog-list th {
+  background: #f0f0f0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.theorem {
+  border: 2px solid #333;   /* 枠線 */
+  padding: 12px;            /* 内側の余白 */
+  margin: 16px 0;           /* 上下の余白 */
+  border-radius: 8px;       /* 角丸にする場合 */
+  background-color: #f9f9f9; /* 背景色 */
+}
+
+.theorem-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 6px;
+  text-decoration: underline; /* 下線をつけたい場合 */
+  text-underline-offset: 3px;
+}
+
+.theorem-body {
+  padding-left: 10px;  /* 少し字下げ */
+}
+
+.proof{
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

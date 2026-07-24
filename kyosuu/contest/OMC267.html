@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>競技数学関連記事</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\mainpage\index.html">ホーム</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyosuu\kyosuu.html">競技数学</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyopro\kyopro.html">競技プログラミング</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\otherfile\other.html">その他</a>
+  </nav>
+  <div class="container">
+    <h1>
+      結果
+    </h1>
+    <p>
+      ABC(80:46+5ペナ)　140位
+    </p>
+    <div>
+      <h2>A問題(200点)</h2>
+      <p>
+        \(b \equiv 0\pmod{3}\) のとき、二つめの条件から \(c \equiv 0\pmod{3} \) となり、このとき一つ目と三つ目の条件から \(a\) の値は一意に定まります。
+      <br>
+        同様に \(b \equiv 1\pmod{3}\) のとき、\(c \equiv 2\pmod{3} \) で、\(a\) の値は一意に定まり、\(b \equiv 1\pmod{3}\) のとき、\(c \equiv 2\pmod{3} \) で、\(a\) の値は一意に定まります。
+      <br>
+        したがって、求める値は、\(3 \times 3 + 4 \times 3 + 3 \times 4 = 33 \) です。
+      </p>
+
+      <h2>B問題(200点)</h2>
+      <p>
+        \(g(x)=f(x)-149x,h(x)=f(x)-765x \) とすると、条件からこれらは重解を持つ必要があります。
+        <br>
+        よって、\(f(x)=ax^2+bx+c \) とおくと、\((b-149)^2=4ac,(b-765)^2=4ac \) という二つの条件がでます。
+        <br>
+        これから、\(b=457 \) がわかり、\(ac=154^2 \) となるので、
+        <br>
+        \(|f(1)+f(7)-1000|=|50a+3656+2c-1000|=|50a+2c-2656| \) となります。
+        <br>
+        ここで相加相乗平均の関係から、\(|50a+2c|>=2 \sqrt{100ac}=3080 \) となるので、
+        <br>
+        \(|f(1)+f(7)-1000|>=424\) となり、求める値は\(424\) となります。
+      </p>
+
+      <h2>C問題(200点)</h2>
+      <p>
+        まず左から奇数番目と偶数番目とは独立に考えられるので、\(50\) 個ずつにわけ、連続する \(3\) 枚を裏返す操作を考えます。
+        このとき、\(i=1,2,\cdots,48\) と順番に、左から \(i\) 番目が裏向きならば、\(i,i+1,i+2\) を裏返すとやっていくと、\(1,2,\cdots,48 \) はすべて表向きになり、
+        \(49,50\) が表向きになるような初期盤面は、\(1,2,\cdots,48\) を任意の盤面に対して一意に定まります。よって、\(2^{48}\) 通りの初期盤面が考えられます。
+        したがって、最初の状態としてありうるものは \((2^{48})^2=2^{96}\) 通りなので、求める値は、\(97\) です。
+      </p>
+
+      <h1>感想</h1>
+      <p>
+        配点が222555ということもあって前半をいかに早く解けるかが大事な回でしたが、すべてで沼にはまってしまいました。
+        最後の余った時間はF問題をやりましたが全く方針がたたないまま終わってしまいました。解説を少し読みましたがあまり理解ができなかったので、しっかり理解できるまで読み込もうと思います。
+        <br>
+        なかなか青に戻れそうになくてつらいですね。
+      </p>
+    </div>
+  </div>
+</body>

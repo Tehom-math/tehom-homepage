@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>競技数学関連記事</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\mainpage\index.html">ホーム</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyosuu\kyosuu.html">競技数学</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyopro\kyopro.html">競技プログラミング</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\otherfile\other.html">その他</a>
+  </nav>
+  <div class="container">
+    <p>
+      組み合わせの有名な積の和典型と呼ばれるテクニックの、組み合わせ的証明と形式的冪級数を用いた証明を書いていきます。
+    </p>
+    <div class="theorem">
+      <div class="theorem-title">積の和典型</div>
+      <div class="theorem-body">
+        <p>\(N\), \(M\) を正の整数とします。</p>
+        <p>長さ \(N\) で、\(\displaystyle \sum_{i=1}^{N} A_{i} = M \) を満たすすべての正整数列 \(A_{1},A_{2},\cdots,A_{N}\) に対して、</p>
+        <p>\(\displaystyle \prod_{i=1}^{N} A_{i}\)の総和は、\(\displaystyle \binom{M+N-1}{M-N}\) である。 </p>
+      </div>
+    </div>
+    <br>
+    <div class="proof">証明1(組み合わせ的解釈)</div>
+    <p>comming soon</p>
+    <div class="proof">証明2(形式的冪級数)</div>
+    <p>形式的冪級数 \(f\) を \(f(x)=\displaystyle \sum_{i=1}^{\infty} ix^i\)で定めます。すると求めたい値は、\([x^M]f^N \) です。</p>
+    <p>\(f(x)-xf(x)=\displaystyle \sum_{i=1}^{\infty} x^i=\frac{x}{1-x} \)</p>
+    <p>なので、</p>
+    <p>\(f(x)=\displaystyle \frac{x}{(1-x)^2} \)</p>
+    <p>となります。よって、</p>
+    $$
+    \begin{align}
+    [x^M]f(x)^N
+    &=[x^M] \frac{x^N}{(1-x)^{2N}} \\
+    &=[x^{M-N}] \frac{1}{(1-x)^{2N}} \\
+    &=[x^{M-N}] \displaystyle \sum_{i=0}^{\infty} \binom{i+2N-1}{2N-1}x^i \quad (\because \text{負の二項定理}) \\
+    &=\displaystyle \binom{M+N-1}{2N-1} \\
+    &=\displaystyle \binom{M+N-1}{M-N} \quad \quad \square
+
+    \end{align}
+    $$
+  </div>
+</body>

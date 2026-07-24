@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>競技数学関連記事</title>
+  <link rel="stylesheet" href="../../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\mainpage\index.html">ホーム</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyosuu\kyosuu.html">競技数学</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\kyopro\kyopro.html">競技プログラミング</a>
+    <a href="C:\Users\itoko\OneDrive\デスクトップ\html\myhomepage\otherfile\other.html">その他</a>
+  </nav>
+  <div class="container">
+    <h1>
+      結果
+    </h1>
+    <p>
+      ABCDEFG(81:40+8ペナ)　89位
+    </p>
+    <h2>A問題(100点)</h2>
+    <p>
+      頑張っていい感じ場合分けして解きました。
+    </p>
+    
+    <h2>B問題(100点)</h2>
+    <p>
+      \(b_{n}=3a_{n}+1 \) とおくと、\(b_{1}=10,b_{n+1}=10b_{n}^2\) から、\(b_{n}=10^{2^n-1}\) となり、\(a_{n}=\displaystyle \frac{10^{2^n-1}-1}{3} \) がわかります。
+    </p>
+
+    <h2>C問題(100点)</h2>
+    <p>
+      三平方の定理から、\(a_{n}^2=\left(n+\displaystyle\frac{1}{2} \right)^2-\left(\displaystyle\frac{1}{2}\right)^2=n(n+1) \) となるので、
+      <br>
+      \(\displaystyle\sum_{i=1}^{99}\frac{1}{a_{i}^2}=\displaystyle\sum_{i=1}^{99}\left(\frac{1}{i}-\frac{1}{i+1}\right)=1-\frac{1}{100}=\frac{99}{100} \) となります。
+    </p>
+    
+    <h2>D問題(200点)</h2>
+    <p>
+      \(10 \nmid x \) のとき、条件から \(x \in S \) がわかり、帰納的に \(v_{10}(x) \) が偶数のとき、またその時に限り \(x \in S \) となることがわかります。
+      よって、一の位から連続する \(0\) の個数を \(2k\) 個と置き式を立てて計算すればよいです。解説の方針が賢かったのでぜひそちらもご覧ください。
+    </p>
+
+    <h2>E問題(200点)</h2>
+    <p>
+      元の条件は \(\exists k \in \mathbb{N} \,\, 1000 \mid n^k(n-1) \) と言い換えられます。\(n\) と \(n-1\) は互いに素なので、
+      \(10 \mid n,1000 \mid n-1,5 \mid n \) かつ \(8 \mid n-1,2 \mid n \) かつ \(125 \mid n-1 \) などで場合分けしてそれぞれ計算してあげればよいです。
+    </p>
+
+    <h2>F問題(200点)</h2>
+    <p>
+      \(ab,cd,ef \) のうち \(0 \pmod{7} \) となるものが、\(0 \) 個、\(1 \) 個、\(3 \) 個と場合分けして数え上げればよいです。
+      <a href="https://onlinemathcontest.com/contests/omcb061/editorial/13047/1177">ユーザー解説</a> と同じ方法なので詳しくはこちらをお読み下さい。
+    </p>
+
+    <h2>G問題(200点)</h2>
+    <p>
+      最初の条件から、\(a_{3n+1}+a_{3n+2}+a_{3n+3}=6n+4 \quad (n \ge 1) \) がわかります。
+      また、\((3n+1)+(3n+2)+(3n+3)=9n+6>6n+4 \) なので \(a_{3n+1},a_{3n+2},a_{3n+3} \) のうち少なくとも一つは \(a_{m}=m \) を満たしません。
+      二つ目の条件から、\(300 \) 個のうち \(200 \) 個が \(a_{m}=m \) を満たすので、\(a_{3n+1},a_{3n+2},a_{3n+3} \) のちょうど二つが \(a_{m}=m \) を満たします。
+      これより、\((a_{3n+1},a_{3n+2},a_{3n+3})=(3n+1,3n+2,1) \) となるのであとは計算するだけです。
+    </p>
+
+    <h1>感想</h1>
+    <p>
+      全体的に計算ミスをたくさんしてしまいました。上位勢はミスも少なく解く早さも桁違でどうすればこの差は埋まるのでしょうか...そろそろこの課題には真剣に向き合っていきたいところではあります。
+      ところで300点のH問題が解けなかったのは反省すべきですね。
+    </p>
+    <div>
+    </div>
+  </div>
+</body>
