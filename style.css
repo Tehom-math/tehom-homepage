@@ -47,8 +47,9 @@ a:hover{
   border: 2px solid #333;
   border-radius: 10px;
   padding: 30px;
-  width: 65%;
-  margin: 100px auto;  /* 自動で中央寄せ */
+  width: 90%;
+  max-width: 900px;
+  margin: 100px auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
